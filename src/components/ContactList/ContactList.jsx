@@ -15,10 +15,10 @@ const ContactList = ({ contacts, onDeleteContact }) => {
 };
 
 ContactList.propTypes = {
-  id: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  number: PropTypes.string.isRequired,
-  onDeleteContact: PropTypes.func.isRequired,
+  id: PropTypes.string,
+  name: PropTypes.string,
+  number: PropTypes.string,
+  onDeleteContact: PropTypes.func,
 };
 
 export default ContactList;
